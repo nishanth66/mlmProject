@@ -1,0 +1,39 @@
+.skin-blue .main-header .navbar, .skin-blue .main-header .logo, .skin-blue .main-header .logo:hover, .skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #f58634;
+}
+.row-master {
+    height: 10%;
+}
+.alert
+{
+    display: none;
+}
+.user-menu .dropdown-toggle:hover, .user-menu .dropdown-toggle:focus
+{
+    outline: none !important;
+    background-color: #f58634 !important;
+}
+.skin-blue .main-header li.user-header {
+    background-color: #3c1775;
+}
+.skin-blue .sidebar a {
+    color: white;
+}
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #5c6367;
+}
+.skin-blue .sidebar-menu>li.active>a {
+    border-left-color: #f58634;
+}
+.sidebarDashboardName
+{
+    padding-left: 5px;
+}
+.skin-blue .sidebar-menu>li>.treeview-menu li .active {
+    margin: 0 1px;
+    background: #3c1775;
+}
+.sideBarHead:hover
+{
+    background: transparent !important;
+}

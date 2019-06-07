@@ -24,4 +24,3 @@ Route::get('/checkEmail/{id}', 'home1Conroller@checkEmail');
 Route::get('/getCity/{id}', 'home1Conroller@getCity');
 
 Route::resource('pins', 'pinController');
-Route::get('pin', 'pinController@pin');

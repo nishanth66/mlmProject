@@ -57,7 +57,7 @@
                 <form method="post" action="{{url('/register')}}">
                     {{csrf_field()}}
                     <div class="input_field"><span><i aria-hidden="true" class="fa fa-user"></i></span>
-                        <input type="text" name="fname" id="fname" value="{{ old('fname') }}" placeholder="First Name"/>
+                        <input type="text" name="fname" class="input_form_control" id="fname" value="{{ old('fname') }}" placeholder="First Name"/>
                         @if ($errors->has('fname'))
                             <span class="help-block">
                                 <strong>{{ $errors->first('fname') }}</strong>

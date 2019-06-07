@@ -22,6 +22,5 @@ Route::get('/home', 'HomeController@index');
 Route::get('/checkReferal/{id}', 'home1Conroller@checkReferal');
 Route::get('/checkEmail/{id}', 'home1Conroller@checkEmail');
 Route::get('/getCity/{id}', 'home1Conroller@getCity');
-Route::get('/getCity2/{id}', 'home1Conroller@getCity');
 
 Route::resource('pins', 'pinController');
